@@ -3,7 +3,7 @@ node
  
   stage("CheckOutCodeGit")
   {
-   git changelog: false, credentialsId: 'Git-Key', poll: false, branch: 'master', url: 'git@github.com:vikram-1998/maven-web-application.git'
+   git changelog: false, credentialsId: 'Git-Key', poll: false, branch: 'master', url: 'git@github.com:vikram-1998/nodejs-app-mss.git'
 		 }
  
  stage("Build")
